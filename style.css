@@ -1,0 +1,110 @@
+* {
+  color: #34656d;
+}
+
+/*
+p{
+color:#1C352D;
+color:#A6B28B;
+color:#F5C9B0;
+color:#F9F6F3;
+}
+faeab1
+
+
+*/
+
+
+body {
+  margin: 0px;
+    font-family: "Noto Sans";
+  background: linear-gradient(45deg, #faeab1, #bc89ca59);
+
+  /*  background: linear-gradient(45deg, #ba5d53, #f4e2d8);*/
+  background-attachment: fixed;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.Vrh {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #334443;
+}
+
+.slideShow {
+  position: relative;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  perspective: 100px;
+}
+
+.slides {
+  display: flex;
+  max-width: 100%;
+  gap: 10px;
+  animation: slide 15s linear infinite;
+  perspective: 100px;
+}
+
+.slides:hover {
+  animation-play-state: paused;
+}
+
+.slides img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.slides img {
+  width: auto;
+  height: 200px;
+  border-radius: 15px;
+  perspective: 100px;
+  transition: 1s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  /*   33% { transform: translateX(-33%); }
+    66% { transform: translateX(-56%); }*/
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media (min-width:320px)  { 
+
+ }
+@media (min-width:480px)  { 
+
+ }
+@media (min-width:600px) {
+}
+.message {
+  margin: 10px;
+  font-size: 28px;
+  font-weight: 770;
+}
+
+.message p {
+  margin: 27px;
+  line-height: 40px;
+}
+
+.Potpis {
+    margin-top: 150px;
+    margin-right: 25px;
+    position: relative;
+    font-family: "Meie Script", cursive;
+    text-align: right;
+    font-size: 24px;
+}
