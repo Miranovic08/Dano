@@ -25,7 +25,7 @@ body {
   .slides {
     display: flex;
     width: 300%;
-    animation: slide 8s linear infinite;
+    animation: slide 2s linear infinite;
   }
 
   .slides img {
@@ -48,4 +48,5 @@ body {
     color: #222;
 
   }
+
 
