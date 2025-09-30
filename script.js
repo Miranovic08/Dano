@@ -21,13 +21,13 @@ window.onload = () => {
       confetti({
         particleCount: 3,
         angle: 315,
-        spread: 85,
+        spread: 86,
         origin: { y: 0.0, x: 0 },
       });
       confetti({
         particleCount: 3,
         angle: 225,
-        spread: 85,
+        spread: 86,
         origin: { y: 0.0, x: 1 },
       });
   
@@ -36,4 +36,5 @@ window.onload = () => {
       }
     })();
   };
+
   
